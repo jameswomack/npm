@@ -127,6 +127,7 @@ need to add them to `.npmignore` explicitly:
 * `config.gypi`
 * `CVS`
 * `npm-debug.log`
+* [`package-lock.json`](https://docs.npmjs.com/files/package-lock.json#description)
 
 Additionally, everything in `node_modules` is ignored, except for
 bundled dependencies. npm automatically handles this for you, so don't
